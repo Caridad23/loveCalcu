@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator </title>
+    <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+ <div class="title">
+  <img src="./heart.png" class="img-left">
+  <img src="./heart.png" class="img-right">
+  <h1>Test Your Love</h1>
+ </div>
+
+
+
+ <div id="customMessage">
+    <p class="answer"> See how compatible you are with your lover!</p>
+    <p class="answer">Enter you names in the boxes below, and click calculate!</p>
+ </div>
+
+ <div>
+   <form id="loveform">
+      <label for="yname">Your Name:</label><br>
+      <input type="text" id="yourname" name="yname"><br>
+      <label for="lname">Lover's Name:</label><br>
+      <input type="text" id="lovename" name="lname"><br><br>
+      <input type="submit" onclick="loveScore()" value="calculate">
+    </form>
+ </div>
+
+ <div class="footer">
+   <hr>
+    <p>© The Love Calculator.</p>
+ </div>
+
+ <script src="./java.js"></script>
+</body>
+
+</html>

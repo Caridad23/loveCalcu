@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: #FF78C4;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+}
+
+
+h1 {
+   color: #F8E8EE;
+   font-family: 'Amita', cursive;
+   font-size: 6rem;
+}
+
+p {
+    color: #F8E8EE;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.img-left {
+    float: left;
+}
+.img-right {
+    float: right;
+}
